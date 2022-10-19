@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+.boards
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+}
+
+.gridItem
+{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 3px 5px lightgray;
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 6px;
+    margin: 10px;
+    height: 500px;
+    min-width: 100px;
+}
+
+.vbox
+{
+    display: table-row;
+    min-width: 116.9px;
+    justify-content: center;
+    
+}
+
+.vbox h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.vbox ul
+{
+    margin-top: 40px;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.vbox ul li
+{
+    margin-top: 40px;
+}
+
+#overflow > *
+{
+    margin-top: 30px;
+}
+
+.vbox button
+{
+    text-align: center;
+    max-height: 30px;
+    min-width:  100px;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 7.5%;
+}
+
+.outputs
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#speakButton
+{
+    margin: auto;
+    margin-top: 35px;
+}
